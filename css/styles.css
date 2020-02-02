@@ -1,0 +1,53 @@
+body{
+    font-family: Helvetica-Normal;
+}
+.sign-up{
+    background-color: #E94D90;
+    border: 1px solid #E94D90;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 35px;
+    transition: 0.5s;
+}
+.sign-up:hover{
+    background-color: white;
+    border: 1px solid #E94D90;
+    border-radius: 50px;
+    color: #E94D90;
+    padding: 15px 35px;
+    transition: 0.5s;
+}
+.username{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+    background-color: #f1f1f1;
+}
+.username::placeholder{
+    color: #515151;
+}
+.username:focus{
+    color: #E94D90;
+}
+.sign-in{
+    padding: 15px 40px;
+    color: white;
+    background-color: #E94D90;
+    border: 1px solid #E94D90;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.sign-in:hover{
+    padding: 15px 40px;
+    color: #E94D90;
+    background-color: white;
+    border: 1px solid #E94D90;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.sign-in:focus{
+    outline: none;
+}
